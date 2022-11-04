@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="0;https://krnl-radio.github.io">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting!</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Redirecting!</h1>
+    <i>You're being redirected, hang tight!</i>
+    <i class="hidden" id="manual">...or click <a href="https://krnl-radio.github.io">here</a>.</i>
+    <script>
+        setTimeout(() => {
+            document.getElementById("manual").classList.remove("hidden");
+        }, 2500);
+    </script>
+</body>
+
+</html>
